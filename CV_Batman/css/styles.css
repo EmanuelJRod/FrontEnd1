@@ -1,0 +1,58 @@
+.fondoHeader{
+    background-color:rgba(229, 229, 229, 1);
+
+}
+.logoBatman{
+    margin-left: 47%;       
+}
+h1{
+    color:rgba(0, 86, 119, 1);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-color: lightgray;
+}
+h2{
+    color:rgba(0, 86, 119, 1);
+    background-color:rgba(196, 196, 196, 1);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+#sections{
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-bottom: 8%;
+    margin-right: 10%;
+}
+.italic{
+    font-style: italic;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+    margin-left: 4%;
+    margin-right: 50%;
+}
+dd{
+    margin-left: 12%;
+}
+.indt{
+    font-weight: normal;
+}
+.fondoFooter{
+    background-color:rgba(0, 86, 119, 1);
+    ;
+}
+.contactoBat{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 10%;
+    font-size: 20px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.icono{
+    margin-top: 0.5%;
+    margin-left: 1%;
+}

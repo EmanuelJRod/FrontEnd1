@@ -6,4 +6,4 @@
 
 - ¿Necesitas algo para el chucho? Te llevo al [PetShop](https://emanueljrod.github.io/FrontEnd1/ProyectoPetShop/index.html)
 
-- ¿Queres contratar a Batman? Te dejo su [CV_De_Batman](/CV_Batman/index.html)
+- ¿Queres contratar a Batman? Te dejo su [CV_De_Batman](https://emanueljrod.github.io/FrontEnd1/CV_Batman/index.html)

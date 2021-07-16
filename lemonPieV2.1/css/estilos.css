@@ -1,0 +1,14 @@
+.fondoHeader{
+    background-image: url(/lemonPieV2.1/img/lemonPie.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    width: auto 30%;
+    background-attachment:scroll;
+    background-position: left;
+    background-color: wheat;
+}
+.textoFondo{
+    color: white;
+    bottom: 10%;
+}

@@ -1,0 +1,82 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background-color: rgb(216, 243, 220);*/
+    background-image:url(/CV_Personal/img/Captura\ web_17-7-2021_16525_www.facebook.com.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 78%;
+    background-position-y: 35%;
+    background-color: #B7E4C7;
+}
+/*Header*/
+.tituloPrincipal{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight:1800;
+    text-align: center;
+    color: #006D77;
+    background-color: #B7E4C7;
+    margin: -0.5%;
+    margin-bottom: -1.5%;
+    padding: 1.5%;
+}
+hr{
+    font-size: 10px;
+}
+
+/*Main*/
+section{
+    background-color:rgba(255, 255, 255, 0);
+    margin: -0.5%;
+    margin-bottom: -1.5%;
+    margin-right: 30%;
+    padding-left: 10%;
+    padding-top: 2%;
+    height: 300px;
+    font-size: 24px;
+    border-color: cadetblue;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #8ab198;
+    color: #0b3325;
+    padding: 2%;
+    padding-left: 8%;
+    border-color: #88b397;
+}
+dt{
+    font-weight: bold;
+    font-style: oblique;
+}
+span{
+    font-weight: normal;
+    margin-left: 3px;
+}
+.Estudios dd{
+    margin-left: 2.5%;
+}
+.Estudios{
+    margin-bottom: 18%;
+}
+ul{
+    list-style-type: square;
+}
+.Habilidades{
+    padding-bottom: 10%;
+}
+
+/*Footer*/
+.Contacto{
+    background-color: #40916C;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: -0%;
+    padding: 1%;
+    color: #19393b;
+}
+a{
+    text-decoration: none;
+    color: #B7E4C7;
+}

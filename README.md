@@ -8,4 +8,4 @@
 
 - ¿Queres contratar a Batman? Te dejo su [CV_De_Batman](https://emanueljrod.github.io/FrontEnd1/CV_Batman/index.html)
 
-- ¿Querés contratarme a mi? Te dejo mi CV [CV_Emanuel](https://emanueljrod.github.io/FrontEnd1/CV_Personal/index.html)
+- ¿Querés contratarme a mi? Te dejo mi [CV_Emanuel](https://emanueljrod.github.io/FrontEnd1/CV_Personal/index.html)

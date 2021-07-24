@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+/*Headder*/
+p.ocultable{
+    background-color:rgba(28, 209, 176, 1);
+    padding: 5px;
+}
+h1{
+    text-transform: uppercase;
+    background-color: rgba(0, 102, 159, 1);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+/*main*/
+.avatar{
+    border-radius: 50%;
+}
+.figus{
+    border-radius: 0% 0% 5% 5%;
+    border: 3px solid black;
+    width: 95%;
+    margin-top: 5%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+.figu1{
+    max-width: 25%;
+    border: 3px solid black;
+    box-d  ;
+}
+.figu2{
+    width: 25%;
+    border: 3px solid black;
+    position: relative;
+    right: -26%;
+    top: 10%;
+}
+/*footer*/
+footer{
+    position: fixed;
+    background-color: black;
+    color: cornsilk;
+    bottom: 0%;
+    padding-bottom: 0.3%;
+    padding-top: 0.3%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align:center;
+}

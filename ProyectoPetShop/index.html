@@ -6,22 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProyectoPetShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="top">
             <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>ARG$</p>
+            <ul>
+                <p><span>Español <a href=""><i class="fas fa-sort-down"></i></a></span><span>ARG$ <a href=""><i
+                                class="fas fa-sort-down"></i></a></span></p>
+            </ul>
         </div>
-        <div>
+        <div class="down">
             <a href="index.html"><img src="img/LogoCat.svg" alt="Logo gatito">
-                <h1>Front<span>Cat&Dog</span></h1><img src="img/LogoDog.svg" alt="Logo perrito">
+                <h1><span class="titular">Front</span><span>Cat&Dog</span></h1><img src="img/LogoDog.svg"
+                    alt="Logo perrito">
                 </img>
             </a>
             <nav>
-                <ul type="none">
+                <ul class="itemsTop">
                     <li><a href="#"><img src="img/NavPawPrint.svg" alt="Categorías">Categorías</a></li>
                     <li><a href="#"><img src="img/NavPawPrint.svg" alt="Pets">Pets</a></li>
                     <li><a href="#"><img src="img/NavPawPrint.svg" alt="Nosotros">Nosotros</a></li>
@@ -31,39 +42,43 @@
         </div>
     </header>
     <main>
-        <section>
-            <img src="img/FondoPrincipal.svg" alt="fondo">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <a href="#">COMEDEROS</a>
+        <section class="semiBanner">
+            <div>
+                <p class="bannerText1">¡Es un placer tenerte aquí!</p>
+                <p class="bannerText2">¡Comederos en descuento!</p>
+                <a class="bannerText3" href="#">COMEDEROS</a>
+            </div>
+
         </section>
-        <section>
-            <img src="img/PrincipalPawPrint.svg" alt="Pata Grande">
-            <h2>Productos Destacados</h2>
-            <ul type="none">
+        <section class="midMenu">
+            <img class="patota" src="img/PrincipalPawPrint.svg" alt="Pata Grande">
+            <h2 class="tituloMidMenu">Productos Destacados</h2>
+            <ul class="ulMidMenu">
                 <li><a href="#">Comederos</a></li>
                 <li><a href="#">Accesorios</a></li>
                 <li><a href="#">Comida</a></li>
             </ul>
+        </section>
+        <section class="buysMenu">
             <div>
                 <img src="img/churras.svg" alt="churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <p class="descriptToy">Juguete Churrasquito</p>
+                <p class="priceToy">$150</p>
             </div>
             <div>
                 <img src="img/comedero.svg" alt="comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
+                <p class="descriptToy">Comedero para perro</p>
+                <p class="priceToy">$250</p>
             </div>
             <div>
                 <img src="img/huesito.svg" alt="huesito">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
+                <p class="descriptToy">Juguete Huesito</p>
+                <p class="priceToy">$650</p>
             </div>
         </section>
     </main>
     <footer>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
 

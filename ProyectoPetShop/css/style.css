@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Headder*/
+.top{
+    background-color:rgba(34, 34, 34, 1) ;
+    color:rgba(243, 243, 243, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-weight: 400;
+}
+.down{
+    background-color:rgba(240, 168, 62, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.titular{
+    color:rgba(60, 35, 19, 1);
+}
+.down > a, .down>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    display: flex;    
+}
+.down{
+    padding: 2.5%;
+}
+.itemsTop{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 2.7%;
+}
+.itemsTop>li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1>span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+/*Main*/
+.semiBanner{
+    background-image: url(../img/FondoPrincipal.svg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: rgba(138, 207, 165, 0.76);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.bannerText1{
+    background-color:white;
+    padding: 2.5px 10px;
+    border-radius: 5%;
+    margin-bottom: 3%;
+    font-weight:400;
+    font-size: 30px;
+}
+.bannerText2{
+    margin-bottom: 8%;
+}
+.bannerText3{
+    background-color: rgba(240, 168, 62, 1);
+    border-radius: 8%;
+    color: white;
+    padding: 5%;
+}
+.midMenu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.patota{
+    max-width: 75px;
+    max-height: 75px;
+    margin: 5%;
+}
+.tituloMidMenu{
+    color: rgba(60, 35, 19, 1);
+    font-weight: 700;
+    font-size: 40px;
+}
+.ulMidMenu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -3.5%;
+}
+.ulMidMenu>li,a{
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1);
+}
+.ulMidMenu>li{
+    padding: 5%;
+}
+.buysMenu{
+    display: flex;
+    justify-content: center;
+}
+.buysMenu>div{
+    border-radius: 8%;
+    padding: 3%;
+    text-align: center;
+}
+.descriptToy{
+    color:rgba(60, 35, 19, 1);
+    ;
+}
+.priceToy{
+   color: rgba(240, 168, 62, 1);
+}
+/*Footer*/
+footer{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    text-align: center;
+}

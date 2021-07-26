@@ -9,3 +9,7 @@
 - ¿Queres contratar a Batman? Te dejo su [CV_De_Batman](https://emanueljrod.github.io/FrontEnd1/CV_Batman/index.html)
 
 - ¿Querés contratarme a mi? Te dejo mi [CV_Emanuel](https://emanueljrod.github.io/FrontEnd1/CV_Personal/index.html)
+
+- ¿Querés saber más sobre los superheroes? Te muestro estas [Estampillas_de_supers] {https://emanueljrod.github.io/FrontEnd1/superHeroes/index.html}
+
+- ¿Se te antojaron unas pizzas? Te dejo esta [Pizzería_Amiga] {https://emanueljrod.github.io/FrontEnd1/proyectoPizza/index.html}

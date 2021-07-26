@@ -4,7 +4,13 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /*Headder*/
+h1{
+    font-weight: 700;
+}
 header{
     background-color: rgba(34, 34, 34, 1);
     color: rgba(243, 243, 243, 1);
@@ -42,22 +48,62 @@ ul{
     list-style-type: none;
 }
 /*Main*/
+h2{
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+}
+h3{
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+}
 main{
     position: relative;
 }
 .contenedorMain{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content:center;
     align-items: stretch;
-    position: absolute;
+    justify-content: space-evenly;
+    height: 400px;
+    padding: 1%;
 }
 .promo{
     background-color: burlywood;
     background-image: url(../img/delivery.svg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    width: 600px;
+    border-radius: 3%;
+    border: 1px solid;
+    border-color: thistle;
+}
+.TituloBlanco{
+    color:white;
+}
+.promo>h2{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.podioPizzas{
+    width: 600px;
+    border-radius: 3%;
+    border: 1px solid;
+    border-color: thistle;
+}
+.podioPizzas>h2{
+    text-align: center;
+}
+.flexPodioPizzas{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+ol>li{
+    font-weight: bold;
+    line-height: 28px;
 }
 
 /*Footer*/

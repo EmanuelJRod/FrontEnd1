@@ -20,46 +20,150 @@ h1{
     z-index: 999;
 }
 /*main*/
-.avatar{
-    border-radius: 50%;
-}
 .figus{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-.figus>div{
-    background-color: rgba(243, 243, 243, 1);
-    padding: 5px;
-    margin: 5px;
-    max-width: 25%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    
+    flex-wrap: wrap;
+    max-width: 1500px;
 }
-.fondoFigurita1{
-    background-image: url(../img/fondoBatman.svg);
+.fa-heart{
+    position: absolute;
+    color: red;
+    top: 5px;
+    left: 10px;
+}
+.figu1,.figu2,.figu3,.figu4{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.25);
+
+}
+/*Figurita 1*/
+.figuArriba1{
+    position: relative;
+    height: 200px;
+    /* border: 2px solid green; */
+    background-image: url("../img/fondoBatman.svg");
     background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
     background-size: cover;
-    height: 150px;
-    width: 280px;
 }
-.fondoFigurita2{
-    background-image: url(../img/fondoHarley.svg);
+
+.figuTexto1{
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 10px;
+}
+.figuTexto1 p{
+    text-align: left;
+    margin: 20px 0;
+}
+.figuTexto1 a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 102, 159, 1);
+    padding: 15px;
+    border-radius: 5%;
+}
+/*Figurita 2*/
+.figuArriba2{
+    position: relative;
+    height: 200px;
+    /* border: 2px solid green; */
+    background-image: url("../img/fondoHarley.svg");
     background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
     background-size: cover;
-    height: 150px;
-    width: 280px;
 }
-.fondoFigurita3{
-    background-image: url(../img/fondoBatman.svg);
+.figuTexto2{
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 10px;
+}
+.figuTexto2 p{
+    text-align: left;
+    margin: 20px 0;
+}
+.figuTexto2 a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 102, 159, 1);
+    padding: 15px;
+    border-radius: 5%;
+}
+/*Figurita 3*/
+.figuArriba3{
+    position: relative;
+    height: 200px;
+    /* border: 2px solid green; */
+    background-image: url("../img/fondoHarley.svg");
     background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
     background-size: cover;
-    height: 150px;
-    width: 280px;
 }
-i{
+.figuTexto3{
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 10px;
+}
+.figuTexto3 p{
+    text-align: left;
+    margin: 20px 0;
+}
+.figuTexto3 a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 102, 159, 1);
+    padding: 15px;
+    border-radius: 5%;
+}
+/*Figurita 4*/
+
+.figuArriba4{
+    position: relative;
+    height: 200px;
+    /* border: 2px solid green; */
+    background-image: url("../img/fondoHarley.svg");
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
+    background-size: cover;
+}
+.figuTexto4{
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 10px;
+}
+.figuTexto4 p{
+    text-align: left;
+    margin: 20px 0;
+}
+.figuTexto4 a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 102, 159, 1);
+    padding: 15px;
+    border-radius: 5%;
+}
+.avatar{
+    border-radius: 50%;
+    position: absolute;
+    left: 50% ;
+    transform: translateX(-50%);
+    top: 135px;
+    height: 125px;
+}
+
+/* i{
     color: red;
     background-color: pink;
     border-radius: 45%;
@@ -90,7 +194,7 @@ i{
     text-decoration: none;
     color: rgba(243, 243, 243, 1);
 }
-
+ */
 
 /*footer*/
 footer{

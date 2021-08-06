@@ -16,6 +16,7 @@
 }
 .down{
     background-color:rgba(240, 168, 62, 1);
+    position: sticky;
     display: flex;
     justify-content: space-between;
 }

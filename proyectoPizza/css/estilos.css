@@ -130,3 +130,32 @@ footer{
 .listaFooter{
     flex-direction: column;
 }
+/*Media Queryes*/
+@media screen and (max-width: 768px){
+    .contenedorMain{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+        height: 400px;
+        padding: 1%;
+        flex-wrap:wrap;
+    }
+}
+.podioPizzas{
+    width: 100%;
+    border-radius: 3%;
+    border: 1px solid;
+    border-color: thistle;
+}
+.promo{
+    background-color: burlywood;
+    background-image: url(../img/delivery.svg);
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    height: 80%;
+    border-radius: 3%;
+    border: 1px solid;
+    border-color: thistle;
+}
